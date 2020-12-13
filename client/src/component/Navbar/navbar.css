@@ -1,0 +1,68 @@
+nav{
+    background-color: white;
+    /*position: fixed;*/
+    padding: 0;
+    margin: 0;
+    height:11vh;
+    /*display: flex;*/
+    /*max-height: -height: 100px;*/
+}
+
+.homeLogo {
+    float: left;
+    padding: 20px;
+}
+
+.navbarList {
+    float: right;
+    list-style: none;
+    margin-left: auto;
+    /*margin-right: auto;*/
+}
+
+li{
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    margin-left: auto;
+    /*display: inline;*/
+}
+
+.fa-plus{
+	display: flex;
+	position: relative;
+    color: black;
+    margin:4px;
+}
+
+.logo{
+    width: 3vw;
+    height: 5vh;
+    margin: auto;
+    background-color: white;
+}
+
+/*.nav-item:active{
+    padding: 0px;
+    margin: 0;
+    color: black !important ;
+    text-decoration: none;
+     display: flex; 
+ }*/
+     
+
+
+/*.nav-item:hover{  
+    border-bottom:3px solid;
+    text-decoration: none; 
+    border-bottom-color: black;
+}*/
+
+.welcome-user{
+    margin-left: auto;
+}
+
+.logout-nav{
+    position: absolute;
+    padding-left: 600px;
+}

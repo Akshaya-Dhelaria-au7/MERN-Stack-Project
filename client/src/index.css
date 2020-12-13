@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: oblique;
+  /*font-family: 'Crimson Text', serif;*/
+ /* background-size:cover; 
+  background-image: url('trial.gif');                                                                                                                                                                                                                              ;
+  background-repeat: no-repeat; 
+  filter:blur(.1px) 
+*/  /* -webkit-filter: blur(2px) grayscale(0.8) brightness(0.8); */
+/* -webkit-transform-origin: top left; */
+/* -webkit-transform: scale(5); */
+}
+/* 
+body{
+
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fa {
+  color:#bdbdbd;
+  position: absolute;
+  width: 20px;
+  padding: 14px;
+  text-align: center;
+}
+
+.fas{
+  color:#bdbdbd;
+  position: absolute;
+  width: 20px;
+  padding: 14px;
+  text-align: center;
+}
+
+input{
+  padding: 10px 40px 10px 35px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #cfdae2;
+}
+
+.para{
+  font-size: 14px;
+  color:#7b7b7b;
+  font-weight: 200;
+  padding: 10px 0 0;
+}
+
+form{
+/*  background-image: url('signup_background.gif');
+  background-repeat: no-repeat;
+  background-size: auto;*/
+  /*filter:blur(0.5px);*/
+  background-image: linear-gradient(#ECE9E6,#FFFFFF);
+  border:1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  height: 40%;
+  /*padding-top: 20vh; */
+  /*padding-left: 30vw;*/
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+.otp{
+  background-image: linear-gradient(#ECE9E6,#FFFFFF);
+  border:1px solid white;
+  border-radius: 10px;
+  width: 40%;
+  height: 40%;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.category-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px;
+  /*width:100vw;*/
+}
+
+
+.category{
+  background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #EEEEEE;
+  background-color: #FFFFFF;
+  width:20vw;
+  margin-bottom: 17px;
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/*.container-fluid{
+  min-height: 75px;
+  padding: 15px;
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #EEEEEE;
+  background-color: #FFFFFF;
+  margin-bottom: 17px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  transition: .1s linear all;
+  width: 32%;
+  margin-left: .5%;
+  margin-right: .5%;
+}*/
+
+/*.container-fluid:hover{
+  width: 350px;
+  transition: height 1s;
+}*/
+
+.btn-primary{
+  position: relative;
+  /* padding:50px; */
+  /* display: flex; */
+}
+
+.title-handler{
+  min-height: 75px;
+  padding: 15px;
+  display: flex;
+  float: right;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid #EEEEEE;
+  background-color: #FFFFFF;
+  margin-bottom: 17px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  transition: .1s linear all;
+  width: 50%;
+  margin-left: .5%;
+  margin-right: .5%;
+  font-style: oblique;
+  /*background-color: whitesmoke;*/
+  background-image: linear-gradient(to left , #abbaab,#ffffff)
+}
+
+.create-category{
+  /*background-image: linear-gradient(#ECE9E6,#FFFFFF);*/
+  background-color: white;
+  border:1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  height: 40%;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+
+.create-title{
+  background-color: white;
+  border:1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  height: 40%;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+/*.form-group{
+  background-image:url('signup.jpg');
+  background-repeat:none;
+}*/
+
+/*.login-div{
+  padding-top: 150px;
+}*/
+
+/*.homeLogo{
+  background-color: red;
+}*/
+
+.search-input{
+  height: 6.5vh;
+  /*border-radius: 4px;*/
+  border:none;
+  box-shadow: 5px 3px 5px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.search-input:hover{
+  box-shadow: 2px 4px 5px 2px rgba(0, 0, 0, 0.1);
+}
